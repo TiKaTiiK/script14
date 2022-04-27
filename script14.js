@@ -72,12 +72,10 @@
 
 // let item = [12, 'google', 32, null, 'yahoo', 25];
 
-// let result = item.map(
-//     x => typeof(x)=='number'
-//         ?
-//     x*x
-//         :
-//     typeof(x)=='string'?x.toUpperCase():x
+// let result = item.map( 
+//     x => typeof(x)=='number' ? x*x :
+//          typeof(x)=='string' ? x.toUpperCase() : 
+//     x
 // )
 // console.log(result);
 
