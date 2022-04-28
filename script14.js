@@ -37,6 +37,24 @@
 // console.log(array.length);
 
 
+// 2.7
+
+// var arr=[
+//     'watermelon',
+//     'orange',
+//     'mango',
+//     'banana',
+//     'pear',
+//     'apple',
+//     'pineapple'
+//   ];
+// var newarr = [];
+// for(var i=1; i<arr.length-1; i++) {
+//     newarr[i-1]=arr[i];
+// }
+// console.log(newarr);
+
+
 // 3.
 
 // let array = [12, 25, 3, 6, 8, 14, 7, 23];
@@ -61,9 +79,8 @@
 // 6.
 
 // let array =  ['academy', 'of', 'digital', 'industries'].reduce(function(accumulator,currentValue) {
-//         return accumulator.concat(currentValue);
-//     },
-//     ' '
+//         return accumulator + ' ' + currentValue;
+//     }
 // )
 // console.log(array);
 
@@ -88,5 +105,3 @@
 //   });
 
 // console.log(newwords);
-
-
